@@ -1,0 +1,164 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* CSS GAME SUIT */
+
+.suit-section {
+    background-color: #9C835F;
+    min-height: 100vh;
+}
+
+.game-suit-logo {
+    width: 70%;
+}
+
+.fa-chevron-left {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    color: #724C21;
+}
+
+.nav-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9B23D;
+}
+
+.container-suit-image {
+    height: 25vh;
+}
+
+#suit-image {
+    width: 40%;
+}
+
+.refresh-img {
+    width: 15%;
+}
+
+.text-player,
+.text-comp {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text-status {
+    font-family: 'Open Sans', sans-serif;
+    color: #BD0000;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.winner-status {
+    background: #4C9654;
+    border-radius: 10px;
+    min-height: 15vh;
+    color: white;
+    transform: rotate(-25deg);
+    width: 100%;
+}
+
+.com-winner {
+    background: #BD0000;
+    border-radius: 10px;
+    min-height: 15vh;
+    color: white;
+    transform: rotate(-25deg);
+    width: 100%;
+}
+
+.draw-status {
+    background: #035B0C;
+    border-radius: 10px;
+    min-height: 15vh;
+    color: white;
+    transform: rotate(-28.87deg);
+    width: 100%;
+    text-align: center;
+}
+
+.selected-suit {
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.winner-status h1,
+.draw-status h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.btnSuit:hover {
+    background: #C4C4C4;
+    border-radius: 30px;
+}
+
+
+/* Small Device */
+
+@media (max-width: 576px) {
+    .start-status {
+        font-size: 5rem;
+    }
+    .text-comp,
+    .text-player {
+        font-size: 1.5rem !important;
+    }
+    #suit-image {
+        width: 40% !important;
+    }
+    .container-suit-image {
+        height: 24vh;
+    }
+    .refresh-img {
+        width: 10% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .winner-status,
+    .text-comp,
+    .text-player {
+        font-size: 1.5rem !important;
+    }
+    .suit-image {
+        width: 60% !important;
+    }
+    .refresh-img {
+        width: 40%;
+    }
+}
+
+
+/* Larga Device */
+
+@media (max-width: 1200px) {
+    .start-status {
+        font-size: 5rem;
+    }
+    #suit-image {
+        width: 60%;
+    }
+    .refresh-img {
+        width: 30%;
+    }
+}
